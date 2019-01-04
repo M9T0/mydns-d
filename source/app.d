@@ -18,7 +18,7 @@ void main()
         auto user = root["user"].get!string;
         auto pass = root["password"].get!string;
         rq.authenticator = new BasicAuthentication(user, pass);
-        auto rs = rq.get( "http://www.mydns.jp/login.html");
+        auto rs = rq.get("http://www.mydns.jp/login.html");
         writeln(rs.responseBody);
 
         auto now = Clock.currTime;

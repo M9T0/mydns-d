@@ -7,7 +7,7 @@
 	"copyright": "Copyright © 2018, makoto",
 	"name": "mydns-d",
     "dependencies": {
-        "requests": "~>1.0.4",
-        "dyaml": "~>0.7.0"
+        "requests": "~>1.0.5",
+        "dyaml": "~>0.7.1"
     }
 }
