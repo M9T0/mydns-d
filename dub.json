@@ -1,0 +1,13 @@
+{
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"authors": [
+		"makoto"
+	],
+	"copyright": "Copyright © 2018, makoto",
+	"name": "mydns-d",
+    "dependencies": {
+        "requests": "~>1.0.4",
+        "dyaml": "~>0.7.0"
+    }
+}

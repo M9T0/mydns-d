@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+mydns-d.so
+mydns-d.dylib
+mydns-d.dll
+mydns-d.a
+mydns-d.lib
+mydns-d-test-*
+*.exe
+*.o
+*.obj
+*.lst
